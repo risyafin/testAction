@@ -8,9 +8,7 @@ jobs:
         uses: appleboy/ssh-action@v1.0.0
         with:
           host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd ~/Projects/action
-            git pull orig
+            cd ~/home/risyafin/hello-wordl
+            git pull origin master
