@@ -10,5 +10,5 @@ jobs:
           host: ${{ secrets.HOST }}
           port: ${{ secrets.PORT }}
           script: |
-            cd ~/home/risyafin/hello-wordl
+            cd ~/hello-wordl
             git pull origin master
